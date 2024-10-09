@@ -1,0 +1,22 @@
+.product {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+}
+
+.product:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
